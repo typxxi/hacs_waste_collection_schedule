@@ -33,10 +33,14 @@ waste_collection_schedule:
     sources:
     - name: awigo_de
       args:
-        ort: Bippen
+        ###############################################
+        ###   ort: Bippen
+        ###   THIS description is WRONG AND MISLEADING
+        ###   It requires the ZIP code attached in ():
+        ###############################################
+        ort: Bippen (49626)
         strasse: Am Bad
-        hnr: 4
-        
+        hnr: 4        
 ```
 
 ## How to get the source argument
